@@ -17,7 +17,7 @@ const paymentBRoutes = require("./routes/paymentBRoutes");
 
 //DB Connection
 mongoose
-  .connect("mongodb+srv://shubham:shubham@mern-social-media.jpuuv.mongodb.net/?retryWrites=true&w=majority/tshirt", {
+  .connect("mongodb+srv://shubham:shubham@mern-social-media.jpuuv.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
